@@ -154,3 +154,8 @@ http://www.cl.cam.ac.uk/~pes20/sail/.
     ; on windows (at least without installing extra cygwin packages which
     ; is tricky).
     (linenoise (and (>= 1.1.0) (<> :os "win32")))))
+
+(package
+ (name sail_noninterference)
+ (synopsis "Non-interference analysis plugin for Sail")
+ (depends libsail))

@@ -17,6 +17,7 @@
  (link_flags -linkall)
  (libraries
   libsail
+  sail_noninterference
   dynlink
   (select
    repl.ml
