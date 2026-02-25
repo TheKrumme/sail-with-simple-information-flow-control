@@ -1,0 +1,21 @@
+Første docker command: docker build -t sail-dev -f Dockerfile.nightly .
+
+
+
+
+# Ubuntu way
+# start med at skaf ubuntu
+# gå ind i ubuntu og sæt det til default wsl
+# wsl --set-default Ubuntu-24.04
+# sudo apt-get install build-essential libgmp-dev z3 opam
+# opam init
+# ocaml --version
+# dune --version
+
+
+
+
+
+
+
+# dune build --profile dev 2>/dev/null
